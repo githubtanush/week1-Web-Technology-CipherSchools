@@ -7,5 +7,22 @@
     <title>Video</title>
 </head>
 <body>
-    <video src="" width="100%"
+    <video controls src="video.mp4" width="100%"></video>
+    <!--or-->
+    <video controls width="100%" muted loop autoplay>
+        <source src="video.mp4" type="">
+        <track src="" 
+        kind="subtitles" 
+        label="english" 
+        srclang="en"
+        default
+        >
+        <track src="" 
+        kind="subtitles" 
+        label="english" 
+        srclang="en"
+        default
+        >
+    </video>
 </body>
+</html>
